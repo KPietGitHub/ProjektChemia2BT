@@ -1,0 +1,106 @@
+#zoom{
+    zoom:67%;
+}
+a {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    display: block;
+    height: 300px;
+    
+}
+
+body {
+    background-color:  red;
+}
+
+
+
+#zdj1 {
+    float: left;
+    height: auto;
+    width: 30%;
+    opacity: 0.8;
+    border-radius: 800px;
+    border: 30px solid #000000;
+    clear: right;
+    display: block;
+    transition: 2s;
+    
+    
+}
+
+#zdj1:hover {
+    animation-name: rotate;
+    opacity: 1.0;
+    animation-duration: 3s;
+    
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+#link1 {
+    background-color: #000000;
+    margin: 150px;
+    display: block;
+    margin-left: 50%;
+    text-align: center;
+    transition: 2s;
+    border-radius: 50px;
+}
+
+#link2 {
+    background-color: #000000;
+    margin: 150px;
+    display: block;
+    margin-left: 50%;
+    text-align: center;
+    transition: 2s;
+    border-radius: 50px;
+}
+
+#link3 {
+    background-color: #000000;
+    margin: 150px;
+    display: block;
+    margin-left: 50%;
+    text-align: center;
+    transition: 2s;
+    border-radius: 50px;
+}
+
+
+#link1:hover{
+    
+    background-color: rgb(128,0,0);
+    transition-duration: 2s;
+    border-radius: 150px;
+  
+}
+
+#link2:hover {
+    background-color: rgb(128,0,0);
+    transition-duration: 2s;
+    border-radius: 150px;
+}
+
+#link3:hover {
+    background-color: rgb(128,0,0);
+    transition-duration: 2s;
+    border-radius: 150px;
+}
+
+div a:hover{
+    transition: 2s;
+    color: #000000
+}
